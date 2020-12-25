@@ -46,7 +46,7 @@ class Video extends Component {
         });
     };
     this.clicked = obj => {
-      console.log("helllooooooo");
+      console.log("helllooooooooo");
       axios
         .patch(`http://localhost:4200/videoDetail/${this.props.id}`, obj)
         .then(() => {
